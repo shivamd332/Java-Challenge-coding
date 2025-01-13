@@ -20,11 +20,9 @@ public class search2DArray {
   
   public static boolean search(int[] [] numArray, int num){
     for (int i=0; i< numArray.length; i++){
-      for (int j=0; j<numArray[i].length;i++){
+      for (int j=0; j<numArray[i].length;j++){
         if (numArray [i][j] == num){
           return true;
-        } else {
-          return false;
         }
       }
     }
